@@ -14,7 +14,7 @@ namespace MauiVerter.MVVM.ViewModels
     public class ConverterViewModel
     {
         public string QuantityName {  get; set; }
-        public ObservableCollection<string> FromMeasure {  get; set; }
+        public ObservableCollection<string> FromMeasures {  get; set; }
         public ObservableCollection<string> ToMeasures { get; set; }
         public string CurrentFromMeasure { get; set; }
         public string CurrentToMeasure { get; set; }
@@ -25,13 +25,13 @@ namespace MauiVerter.MVVM.ViewModels
             Convert();
         });
 
-        public ConverterViewModel() 
+        public ConverterViewModel(string quantityName) 
         {
-            QuantityName = "Length";
-            FromMeasure = LoadMeasures();
+            QuantityName = quantityName;
+            FromMeasures = LoadMeasures();
             ToMeasures = LoadMeasures();
-            CurrentFromMeasure = "Meter";
-            CurrentToMeasure = "Centimeter";
+            CurrentFromMeasure = FromMeasures.FirstOrDefault();
+            CurrentToMeasure = ToMeasures.Skip(1).FirstOrDefault();
             Convert();
         }
 

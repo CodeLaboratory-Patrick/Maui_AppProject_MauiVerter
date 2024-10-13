@@ -8,7 +8,7 @@ namespace MauiVerter
         {
             InitializeComponent();
 
-            MainPage = new ConverterView();
+            MainPage = new NavigationPage(new MenuView());
         }
     }
 }
