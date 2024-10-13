@@ -49,4 +49,4 @@ The key files included in this project are:
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - MVVM Pattern](https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
-- [Navigation in .NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/navigation)
+- [Navigation in .NET MAUI]([https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/navigation](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/pages/navigationpage?view=net-maui-8.0))
