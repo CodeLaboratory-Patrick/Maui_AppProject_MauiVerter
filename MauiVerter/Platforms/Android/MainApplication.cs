@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiVerter
+namespace StylesDemo
 {
     [Application]
     public class MainApplication : MauiApplication
@@ -11,6 +11,6 @@ namespace MauiVerter
         {
         }
 
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        protected override MauiApp CreateMauiApp() => MauiVerter.MauiProgram.CreateMauiApp();
     }
 }
