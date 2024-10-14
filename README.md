@@ -471,7 +471,7 @@ public class MainPageViewModel
 
 
 
-#### Summary Table of Components
+## Summary Table of Components
 | Component             | File Path                | Description                                  | Key Features                            |
 |-----------------------|--------------------------|----------------------------------------------|-----------------------------------------|
 | **Converter View**    | ConverterView.xaml       | UI for the Converter section                 | TextBox, ComboBox, Button, Label        |
